@@ -1,10 +1,10 @@
-#include "System"
+#include "System.cpp"
 
 namespace Project
 {
 	class Program
 	{
-		public: static void Main (String args[])
+		public static void Main (String args[])
 		{
 			ConsoleWrite ("{1}\n", 10,12,131,141,414);
 			ConsoleWrite ("{:+.9}; {:+}\n", ((double)(3.1111114)), -3.14);
@@ -15,5 +15,3 @@ namespace Project
 		}
 	};
 }
-
-run_main
